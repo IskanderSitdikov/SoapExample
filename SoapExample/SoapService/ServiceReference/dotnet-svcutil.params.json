@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "8.0.0",
+  "options": {
+    "inputs": [
+      "../globalweather.wsdl"
+    ],
+    "namespaceMappings": [
+      "*, ExternalServices.GlobalWeather"
+    ],
+    "outputFile": "Reference.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "net9.0",
+    "typeReuseMode": "All"
+  }
+}
